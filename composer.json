@@ -1,6 +1,6 @@
 {
   "name": "logstats/logstatsphp",
-  "description": "Library for sending logs to logstats",
+  "description": "PHP library for sending logs to logstats",
   "keywords": ["log", "logging", "logstats"],
   "license": "MIT",
   "authors": [
