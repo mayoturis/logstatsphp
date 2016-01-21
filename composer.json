@@ -1,0 +1,21 @@
+{
+  "name": "logstats/logstatsphp",
+  "description": "Library for sending logs to logstats",
+  "keywords": ["log", "logging", "logstats"],
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Marek Turis",
+	  "email": "marek.turis@gmail.com"
+	}
+  ],
+  "require": {
+	"psr/log": "~1.0",
+	"monolog/monolog": "^1.17"
+  },
+  "autoload": {
+	"psr-4": {
+	  "Logstats\\": "src/Logstats/"
+	}
+  }
+}
